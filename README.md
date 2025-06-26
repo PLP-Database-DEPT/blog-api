@@ -3,6 +3,12 @@ This is a demostration api used for teaching intergration and unit testing for v
 #### Types of Testing
 - **Unit Testing**: These tests are unit tests for the blog application's API endpoints, ensuring that individual components (like creating, listing, updating, and deleting a blog post) behave as expected
 - **Integration Testing**: They test how different parts of the system work together, such as the database and the API routes.
+
+#### Tools
+- **pytest**: This is the testing framework used for running the tests.
+- **pytest-asyncio**: This is a plugin for pytest that supports asynchronous testing using async and await
+- **client**: This is likely a test client that interacts with the API endpoints during testing
+
 #### Run Locally
 
 Clone the project
