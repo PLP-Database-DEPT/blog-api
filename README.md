@@ -30,6 +30,16 @@ Create a virtual environment
 ```bash
   py -m venv .venv
 ```
+Activate virtual environment for **Windows**
+
+```bash
+  .venv\Scripts\activate
+```
+Activate virtual environment **Linux/Mac**
+
+```bash
+  source .venv/bin/activate
+```
 Create a .env file in the root directory
 ```bash
   DB_URL = "mysql+aiomysql://root:<your_password>@localhost:3306/blog"
