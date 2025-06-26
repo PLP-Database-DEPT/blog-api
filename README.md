@@ -60,7 +60,7 @@ To interact with and test the API endpoints, you can use **Postman** or **Thunde
 ### HTTP Methods and Their Usage:
 **1. Fetch all blogs (GET)**
    - Used to fetch all the blogs in the database.
-   - This will retrieve a list of all books in the database.
+   - This will retrieve a list of all blogs in the database.
    - Request:
      ```bash
      GET http://127.0.0.1:8000/blogs
