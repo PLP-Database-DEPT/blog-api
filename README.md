@@ -1,4 +1,8 @@
 ### Blog API
+This is a demostration api used for teaching intergration and unit testing for various components to validate the behavior of an API for creating, reading, updating, and deleting blog posts
+#### Types of Testing
+- **Unit Testing**: These tests are unit tests for the blog application's API endpoints, ensuring that individual components (like creating, listing, updating, and deleting a blog post) behave as expected
+- **Integration Testing**: They test how different parts of the system work together, such as the database and the API routes.
 #### Run Locally
 
 Clone the project
