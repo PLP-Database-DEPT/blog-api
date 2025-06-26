@@ -10,7 +10,10 @@ This is a demonstration API designed for teaching integration and unit testing a
 - **client**: This is likely a test client that interacts with the API endpoints during testing
 
 #### Run Locally
-
+Create a Database
+```bash
+  CREATE DATABASE blog;
+```
 Clone the project
 
 ```bash
@@ -26,6 +29,10 @@ Create a virtual environment
 
 ```bash
   py -m venv .venv
+```
+Create a .env file in the root directory
+```bash
+  DB_URL = "mysql+aiomysql://root:<your_password>@localhost:3306/blog"
 ```
 Install dependencies
 
